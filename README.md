@@ -7,7 +7,7 @@ This project provides a custom Home Assistant card that visualizes hierarchical 
 - Integrates seamlessly with Home Assistant.
 - Visualize hierarchical relationships effectively.
 
-(https://raw.githubusercontent.com/RoyOltmans/ha_sunburstchart/refs/heads/main/sunburst.png))
+[preview](https://raw.githubusercontent.com/RoyOltmans/ha_sunburstchart/refs/heads/main/sunburst.png))
 
 ## Requirements
 - **Home Assistant** with Lovelace UI.
