@@ -16,6 +16,9 @@ This project provides a custom Home Assistant card that visualizes hierarchical 
 
 1. **Add the Custom Card to Home Assistant:**
    - Copy the `sunburst-chart-card.js` file to the `www` directory in your Home Assistant configuration.
+  ```
+  $ wget https://raw.githubusercontent.com/RoyOltmans/ha_sunburstchart/refs/heads/main/sunburst-chart-card.js
+  ```
    - Add the following to your `ui-lovelace.yaml`:
      ```yaml
      resources:
