@@ -14,7 +14,15 @@ This project provides a custom Home Assistant card that visualizes hierarchical 
 
 ## Installation
 
-1. **Add the Custom Card to Home Assistant:**
+0. **Add plotly as local module**
+   - Copy the `plotly-2.35.2.min.js` file to the `www` directory in your Home Assistant configuration.
+   
+  ```
+  $ wget https://cdn.plot.ly/plotly-2.35.2.min.js
+  $ mv plotly-2.35.2.min.js plotly.min.js
+  ```
+
+2. **Add the Custom Card to Home Assistant:**
    - Copy the `sunburst-chart-card.js` file to the `www` directory in your Home Assistant configuration.
   ```
   $ wget https://raw.githubusercontent.com/RoyOltmans/ha_sunburstchart/refs/heads/main/sunburst-chart-card.js
