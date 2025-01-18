@@ -65,6 +65,7 @@ class SunburstChartCard extends HTMLElement {
       </style>
       <div class="sunburst-container">
         <div id="chart"></div>
+        <div class="version-label">Version 0.1.0</div>
       </div>
     `;
 
@@ -81,7 +82,7 @@ class SunburstChartCard extends HTMLElement {
     };
 
     const config = {
-      staticPlot: true,
+      staticPlot: false,
       scrollZoom: true,
       editable: true,
     };
@@ -98,7 +99,7 @@ class SunburstChartCard extends HTMLElement {
         margin: { t: 0, l: 0, r: 0, b: 0 },
         uniformtext: { minsize: 10, mode: "hide" },
         transition: {
-          duration: 500, // Smooth animation for updates
+          duration: 10500, // Smooth animation for updates
           easing: "cubic-in-out", // Smooth easing function
         },
       };
